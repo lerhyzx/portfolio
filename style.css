@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Work+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: #F5F5DC;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ezcar', serif;
+}
+
+.bg-custom{
+    background-color: #b89466;
+}
+
+.btn-color{
+    background: #d1b382a9;
+    padding: 8px 20px;
+}
+.btn-color:hover {
+    color: #ffff;
+    background: #684e2e;
+}
+.bx {
+    padding: 3px;
+}
+.calendar{
+    background: #f1ca8f;
+}
+.w-md-50 {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: #684e2e;
+}
+@media screen and (max-width: 768px) {
+    .w-md-50 {
+        width: 50%;
+    }
+}
+.carousel-caption {
+    color: black;
+}
